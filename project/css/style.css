@@ -183,6 +183,7 @@ header:after {
   }
 .screenshots {
   /*padding: 50px;*/
+  padding: 50px 50px 30px 50px;
   padding-bottom: 30px;
   width: 100%;
 /*  height: 487px;*/
@@ -343,6 +344,8 @@ header:after {
     margin: 0 20px 0 0;
     border: 2.0px solid #445162;
     box-sizing: border-box;
+    padding: 0 0 10px 0;
+    box-sizing: border-box;
     
 }
 .prices-box-title {
@@ -369,6 +372,9 @@ header:after {
     justify-content: center;
     padding: 18px;
     box-sizing: border-box;
+}
+.prices-box:nth-child(3) {
+margin: 0;
 }
 .prices-box-list {
     font-size: 14px;
